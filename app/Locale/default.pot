@@ -1,0 +1,4286 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-07-16 10:00+0800\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/GallerysController.php:60
+msgid "invalid fold"
+msgstr ""
+
+#: Controller/GallerysController.php:102
+msgid "invalid image"
+msgstr ""
+
+#: Controller/GroupsController.php:31;63;88
+msgid "Invalid group"
+msgstr ""
+
+#: Controller/GroupsController.php:46;67
+msgid "The group has been saved"
+msgstr ""
+
+#: Controller/GroupsController.php:49;70
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GroupsController.php:92
+msgid "Group deleted"
+msgstr ""
+
+#: Controller/GroupsController.php:95
+msgid "Group was not deleted"
+msgstr ""
+
+#: Controller/ImagesController.php:20
+msgid "Invalid fold id"
+msgstr ""
+
+#: Controller/PostsController.php:11;15;34;39
+msgid "Invalid post"
+msgstr ""
+
+#: Controller/UsersController.php:32;66;93
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:47;70
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:50;73
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:97
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:100
+msgid "User was not deleted"
+msgstr ""
+
+#: Model/Image.php:26
+#: Model/Speedfold.php:63
+#: Error/ExceptionRenderer.php:212
+msgid "Not Found"
+msgstr ""
+
+#: Model/Image.php:28
+msgid "Invalid Image"
+msgstr ""
+
+#: Model/Speedfold.php:47;55;61
+msgid "Invalid Fold"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+msgid "The type of tree to verify"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+msgid "The type of tree to recover"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:123
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:136
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:181
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:222
+msgid "Created Aco node: <success>%s</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:272
+msgid "Unable to get methods for \"%s\""
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:293
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:312
+msgid "<success>Tree is valid and strong</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:330
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:332
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: View/Groups/add.ctp:4
+msgid "Add Group"
+msgstr ""
+
+#: View/Groups/add.ctp:9
+#: View/Groups/edit.ctp:10
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+#: View/Helper/FormHelper.php:1834
+#: View/Scaffolds/form.ctp:24
+msgid "Submit"
+msgstr ""
+
+#: View/Groups/add.ctp:12
+#: View/Groups/edit.ctp:13
+#: View/Groups/index.ctp:9;40
+#: View/Groups/view.ctp:27
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/index.ctp:11;46
+#: View/Users/view.ctp:37;60
+#: View/Scaffolds/form.ctp:28
+#: View/Scaffolds/index.ctp:27;78
+#: View/Scaffolds/view.ctp:51
+msgid "Actions"
+msgstr ""
+
+#: View/Groups/add.ctp:15
+#: View/Groups/edit.ctp:17
+#: View/Groups/view.ctp:31
+#: View/Users/add.ctp:18
+#: View/Users/edit.ctp:20
+#: View/Users/index.ctp:49
+#: View/Users/view.ctp:43
+msgid "List Groups"
+msgstr ""
+
+#: View/Groups/edit.ctp:4
+#: View/Groups/view.ctp:29
+msgid "Edit Group"
+msgstr ""
+
+#: View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:20
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+#: View/Users/view.ctp:75
+#: View/Scaffolds/form.ctp:32
+#: View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:178
+msgid "Delete"
+msgstr ""
+
+#: View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:20
+#: View/Groups/view.ctp:30
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+#: View/Users/view.ctp:40;75
+#: View/Scaffolds/form.ctp:35
+#: View/Scaffolds/index.ctp:55
+#: View/Scaffolds/view.ctp:181
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Groups/index.ctp:2
+msgid "Groups"
+msgstr ""
+
+#: View/Groups/index.ctp:18
+#: View/Users/index.ctp:24
+#: View/Users/view.ctp:73
+#: View/Scaffolds/index.ctp:49
+#: View/Scaffolds/view.ctp:166
+msgid "View"
+msgstr ""
+
+#: View/Groups/index.ctp:19
+#: View/Users/index.ctp:25
+#: View/Users/view.ctp:74
+#: View/Scaffolds/index.ctp:50
+#: View/Scaffolds/view.ctp:172
+msgid "Edit"
+msgstr ""
+
+#: View/Groups/index.ctp:28
+#: View/Images/json/search.ctp:9
+#: View/Speedfolds/json/search.ctp:9
+#: View/Users/index.ctp:34
+#: View/Scaffolds/index.ctp:66
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Groups/index.ctp:33
+#: View/Images/json/search.ctp:4
+#: View/Speedfolds/json/search.ctp:4
+#: View/Users/index.ctp:39
+#: View/Scaffolds/index.ctp:71
+msgid "previous"
+msgstr ""
+
+#: View/Groups/index.ctp:35
+#: View/Images/json/search.ctp:6
+#: View/Speedfolds/json/search.ctp:6
+#: View/Users/index.ctp:41
+#: View/Scaffolds/index.ctp:73
+msgid "next"
+msgstr ""
+
+#: View/Groups/index.ctp:42
+#: View/Groups/view.ctp:32
+#: View/Users/add.ctp:19
+#: View/Users/edit.ctp:21
+#: View/Users/index.ctp:50
+#: View/Users/view.ctp:44
+msgid "New Group"
+msgstr ""
+
+#: View/Groups/view.ctp:2
+#: View/Users/view.ctp:19
+msgid "Group"
+msgstr ""
+
+#: View/Groups/view.ctp:4
+#: View/Users/view.ctp:4;54
+msgid "Id"
+msgstr ""
+
+#: View/Groups/view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/Groups/view.ctp:14
+#: View/Users/view.ctp:24;58
+msgid "Created"
+msgstr ""
+
+#: View/Groups/view.ctp:19
+#: View/Users/view.ctp:29;59
+msgid "Modified"
+msgstr ""
+
+#: View/Groups/view.ctp:30
+msgid "Delete Group"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: View/Users/add.ctp:20
+#: View/Users/edit.ctp:22
+#: View/Users/index.ctp:51
+#: View/Users/view.ctp:45
+msgid "List Posts"
+msgstr ""
+
+#: View/Users/add.ctp:21
+#: View/Users/edit.ctp:23
+#: View/Users/index.ctp:52
+#: View/Users/view.ctp:46;84
+msgid "New Post"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:48
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr ""
+
+#: View/Users/view.ctp:50
+msgid "Related Posts"
+msgstr ""
+
+#: View/Users/view.ctp:55
+msgid "User Id"
+msgstr ""
+
+#: View/Users/view.ctp:56
+msgid "Title"
+msgstr ""
+
+#: View/Users/view.ctp:57
+msgid "Body"
+msgstr ""
+
+#: Model/User.php:validation for field username;validation for field password
+msgid "notempty"
+msgstr ""
+
+#: Model/User.php:validation for field group_id
+msgid "numeric"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:51
+msgid "-> Testing :url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:77
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:78
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:82
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:86
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:90
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:94
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:146
+msgid "DebugKit Benchmark Shell"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
+msgid "\tAllows you to obtain some rough benchmarking statistics \n\tabout a fully qualified URL."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:150
+msgid "\tUse:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:151
+msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:153
+msgid "\tParams:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:154
+msgid "\t\t-n Number of iterations to perform. Defaults to 10. \n\t\t   Must be an integer."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:155
+msgid "\t\t-t Maximum total time for all iterations, in seconds. \n\t\t   Defaults to 100. Must be an integer."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:157
+msgid "\tIf a single iteration takes more than the \n\ttimeout specified, only one request will be made."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:159
+msgid "\tExample Use:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:160
+msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:162
+msgid "\tNote that this benchmark does not include browser render time"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:162
+msgid "Component initialization"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:284
+msgid "Controller action"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:287
+msgid "Controller action start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:307
+msgid "Processing toolbar state"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:330
+msgid "Processing toolbar data"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:365
+msgid "Controller render start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:448
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/DebugTimer.php:135
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:317
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:338
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:417
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:24
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:21
+msgid "App Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:37
+msgid "CakePHP Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:53
+msgid "PHP Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:71
+msgid "Hidef Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:20
+msgid "Request History"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:22
+msgid "No previous requests logged."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:24
+msgid "previous requests available"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:26
+msgid "Restore to current request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/include_panel.ctp:20
+msgid "Included Files"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:20
+msgid "Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:28
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:43;67
+msgid "Message"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:39
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:20
+msgid "Request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:28
+msgid "No post data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:37
+msgid "No querystring data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:50
+msgid "Current Route"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/session_panel.ctp:20
+msgid "Session"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:25
+msgid "Sql Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:39
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:48
+msgid "Query Explain:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:51
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:56
+msgid "No active database connections"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:36
+msgid "Memory"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:39
+msgid "Peak Memory Use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:43
+msgid "Memory use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:56
+msgid "Timers"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:58
+msgid "%s (ms)"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:59
+msgid "Total Request Time:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:68
+msgid "Time in ms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:69
+msgid "Graph"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/variables_panel.ctp:20
+msgid "View Variables"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:51
+msgid "Rendering View"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:66
+msgid "Rendering %s"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:92
+msgid "View render complete"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:201
+msgid "Explain"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:86
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/TidyHelper.php:109
+msgid "No markup errors found"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:197
+msgid "maybe slow"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:94
+msgid "Absolute path or relative to APP."
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:59
+msgid "<error>Error:</error> %s\n%s"
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:83
+msgid "%s in [%s, line %s]"
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:84
+msgid "<error>%s Error:</error> %s\n"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:100
+msgid " <comment>(optional)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:103
+#: Console/ConsoleInputOption.php:132
+msgid " <comment>(choices: %s)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:147
+msgid "\"%s\" is not a valid value for %s. Please use one of \"%s\""
+msgstr ""
+
+#: Console/ConsoleInputOption.php:97
+msgid "Short option \"%s\" is invalid, short options must be one letter."
+msgstr ""
+
+#: Console/ConsoleInputOption.php:129
+msgid " <comment>(default: %s)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputOption.php:192
+msgid "\"%s\" is not a valid value for --%s. Please use one of \"%s\""
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:149
+msgid "Display this help."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:156
+msgid "Enable verbose output."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:160
+msgid "Enable quiet output."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:484
+msgid "Missing required arguments. %s is required."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:568
+msgid "Unknown short option `%s`"
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:584
+msgid "Unknown option `%s`"
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:636
+msgid "Too many arguments."
+msgstr ""
+
+#: Console/HelpFormatter.php:72
+msgid "<info>Usage:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:77
+msgid "<info>Subcommands:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:88
+msgid "To see help on a subcommand use <info>`cake %s [subcommand] --help`</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:95
+msgid "<info>Options:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:110
+msgid "<info>Arguments:</info>"
+msgstr ""
+
+#: Console/Shell.php:219
+#: Console/Command/ServerShell.php:110
+msgid "<info>Welcome to CakePHP %s Console</info>"
+msgstr ""
+
+#: Console/Shell.php:221
+#: Console/Command/ServerShell.php:112
+msgid "App : %s"
+msgstr ""
+
+#: Console/Shell.php:222
+#: Console/Command/ServerShell.php:113
+#: Console/Command/Task/PluginTask.php:66
+#: Console/Command/Task/TestTask.php:114
+msgid "Path: %s"
+msgstr ""
+
+#: Console/Shell.php:616
+msgid "<error>Error:</error> %s"
+msgstr ""
+
+#: Console/Shell.php:654
+msgid "<warning>File `%s` exists</warning>"
+msgstr ""
+
+#: Console/Shell.php:655
+msgid "Do you want to overwrite?"
+msgstr ""
+
+#: Console/Shell.php:658
+msgid "<error>Quitting</error>."
+msgstr ""
+
+#: Console/Shell.php:661
+msgid "Skip `%s`"
+msgstr ""
+
+#: Console/Shell.php:665
+msgid "Creating file %s"
+msgstr ""
+
+#: Console/Shell.php:672
+msgid "<success>Wrote</success> `%s`"
+msgstr ""
+
+#: Console/Shell.php:676
+msgid "<error>Could not write to `%s`</error>."
+msgstr ""
+
+#: Console/Shell.php:696
+msgid "PHPUnit is not installed. Do you want to bake unit test files anyway?"
+msgstr ""
+
+#: Console/Shell.php:702
+msgid "You can download PHPUnit from %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:79
+msgid "Error: Your current Cake configuration is set to an ACL implementation other than DB."
+msgstr ""
+
+#: Console/Command/AclShell.php:80
+msgid "Please change your core config to reflect your decision to use DbAcl before attempting to use this script"
+msgstr ""
+
+#: Console/Command/AclShell.php:82
+msgid "Current ACL Classname: %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:90
+#: Console/Command/BakeShell.php:87
+#: Console/Command/I18nShell.php:56
+msgid "Your database configuration was not found. Take a moment to create one."
+msgstr ""
+
+#: Console/Command/AclShell.php:135
+msgid "/ can not be used as an alias!"
+msgstr ""
+
+#: Console/Command/AclShell.php:135
+msgid "\t/ is the root, please supply a sub alias"
+msgstr ""
+
+#: Console/Command/AclShell.php:141
+msgid "<success>New %s</success> '%s' created."
+msgstr ""
+
+#: Console/Command/AclShell.php:143
+msgid "There was a problem creating a new %s '%s'."
+msgstr ""
+
+#: Console/Command/AclShell.php:159
+msgid "Node Not Deleted"
+msgstr ""
+
+#: Console/Command/AclShell.php:159
+msgid "There was an error deleting the %s. Check that the node exists."
+msgstr ""
+
+#: Console/Command/AclShell.php:161
+msgid "<success>%s deleted.</success>"
+msgstr ""
+
+#: Console/Command/AclShell.php:182
+msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgstr ""
+
+#: Console/Command/AclShell.php:184
+msgid "Node parent set to %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:202
+msgid "Supplied Node '%s' not found"
+msgstr ""
+
+#: Console/Command/AclShell.php:203;319;321;530
+msgid "No tree returned."
+msgstr ""
+
+#: Console/Command/AclShell.php:206
+msgid "Path:"
+msgstr ""
+
+#: Console/Command/AclShell.php:240
+msgid "%s is <success>allowed</success>."
+msgstr ""
+
+#: Console/Command/AclShell.php:242
+msgid "%s is <error>not allowed</error>."
+msgstr ""
+
+#: Console/Command/AclShell.php:255
+msgid "Permission <success>granted</success>."
+msgstr ""
+
+#: Console/Command/AclShell.php:257
+msgid "Permission was <error>not granted</error>."
+msgstr ""
+
+#: Console/Command/AclShell.php:270
+msgid "Permission denied."
+msgstr ""
+
+#: Console/Command/AclShell.php:272
+msgid "Permission was not denied."
+msgstr ""
+
+#: Console/Command/AclShell.php:285
+msgid "Permission inherited."
+msgstr ""
+
+#: Console/Command/AclShell.php:287
+msgid "Permission was not inherited."
+msgstr ""
+
+#: Console/Command/AclShell.php:319;321;530
+#: Console/Command/ApiShell.php:94
+#: Console/Command/Task/DbConfigTask.php:256
+#: Utility/Folder.php:654
+msgid "%s not found"
+msgstr ""
+
+#: Console/Command/AclShell.php:371
+msgid "Type of node to create."
+msgstr ""
+
+#: Console/Command/AclShell.php:375
+msgid "A console tool for managing the DbAcl"
+msgstr ""
+
+#: Console/Command/AclShell.php:377
+msgid "Create a new ACL node"
+msgstr ""
+
+#: Console/Command/AclShell.php:379
+msgid "Creates a new ACL object <node> under the parent"
+msgstr ""
+
+#: Console/Command/AclShell.php:380
+msgid "You can use `root` as the parent when creating nodes to create top level nodes."
+msgstr ""
+
+#: Console/Command/AclShell.php:384
+msgid "The node selector for the parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:388
+msgid "The alias to use for the newly created node."
+msgstr ""
+
+#: Console/Command/AclShell.php:394
+msgid "Deletes the ACL object with the given <node> reference"
+msgstr ""
+
+#: Console/Command/AclShell.php:396
+msgid "Delete an ACL node."
+msgstr ""
+
+#: Console/Command/AclShell.php:400
+msgid "The node identifier to delete."
+msgstr ""
+
+#: Console/Command/AclShell.php:406
+msgid "Moves the ACL node under a new parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:408
+msgid "Moves the ACL object specified by <node> beneath <parent>"
+msgstr ""
+
+#: Console/Command/AclShell.php:412
+msgid "The node to move"
+msgstr ""
+
+#: Console/Command/AclShell.php:416
+msgid "The new parent for <node>."
+msgstr ""
+
+#: Console/Command/AclShell.php:422
+msgid "Print out the path to an ACL node."
+msgstr ""
+
+#: Console/Command/AclShell.php:425
+msgid "Returns the path to the ACL object specified by <node>."
+msgstr ""
+
+#: Console/Command/AclShell.php:426
+msgid "This command is useful in determining the inheritance of permissions for a certain object in the tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:431
+msgid "The node to get the path of"
+msgstr ""
+
+#: Console/Command/AclShell.php:437
+msgid "Check the permissions between an ACO and ARO."
+msgstr ""
+
+#: Console/Command/AclShell.php:440
+msgid "Use this command to check ACL permissions."
+msgstr ""
+
+#: Console/Command/AclShell.php:443
+msgid "ARO to check."
+msgstr ""
+
+#: Console/Command/AclShell.php:444
+msgid "ACO to check."
+msgstr ""
+
+#: Console/Command/AclShell.php:445
+msgid "Action to check"
+msgstr ""
+
+#: Console/Command/AclShell.php:449
+msgid "Grant an ARO permissions to an ACO."
+msgstr ""
+
+#: Console/Command/AclShell.php:452
+msgid "Use this command to grant ACL permissions. Once executed, the ARO specified (and its children, if any) will have ALLOW access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: Console/Command/AclShell.php:455
+msgid "ARO to grant permission to."
+msgstr ""
+
+#: Console/Command/AclShell.php:456
+msgid "ACO to grant access to."
+msgstr ""
+
+#: Console/Command/AclShell.php:457
+msgid "Action to grant"
+msgstr ""
+
+#: Console/Command/AclShell.php:461
+msgid "Deny an ARO permissions to an ACO."
+msgstr ""
+
+#: Console/Command/AclShell.php:464
+msgid "Use this command to deny ACL permissions. Once executed, the ARO specified (and its children, if any) will have DENY access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: Console/Command/AclShell.php:467
+msgid "ARO to deny."
+msgstr ""
+
+#: Console/Command/AclShell.php:468
+msgid "ACO to deny."
+msgstr ""
+
+#: Console/Command/AclShell.php:469
+msgid "Action to deny"
+msgstr ""
+
+#: Console/Command/AclShell.php:473
+msgid "Inherit an ARO's parent permissions."
+msgstr ""
+
+#: Console/Command/AclShell.php:476
+msgid "Use this command to force a child ARO object to inherit its permissions settings from its parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:479
+msgid "ARO to have permissions inherit."
+msgstr ""
+
+#: Console/Command/AclShell.php:480
+msgid "ACO to inherit permissions on."
+msgstr ""
+
+#: Console/Command/AclShell.php:481
+msgid "Action to inherit"
+msgstr ""
+
+#: Console/Command/AclShell.php:485
+msgid "View a tree or a single node's subtree."
+msgstr ""
+
+#: Console/Command/AclShell.php:488
+msgid "The view command will return the ARO or ACO tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:489
+msgid "The optional node parameter allows you to return"
+msgstr ""
+
+#: Console/Command/AclShell.php:490
+msgid "only a portion of the requested tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:494
+msgid "The optional node to view the subtree of."
+msgstr ""
+
+#: Console/Command/AclShell.php:498
+msgid "Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
+msgstr ""
+
+#: Console/Command/AclShell.php:566
+msgid "Could not find node using reference \"%s\""
+msgstr ""
+
+#: Console/Command/ApiShell.php:102
+msgid "%s::%s() could not be found"
+msgstr ""
+
+#: Console/Command/ApiShell.php:119
+msgid "Select a number to see the more information about a specific method. q to quit. l to list."
+msgstr ""
+
+#: Console/Command/ApiShell.php:121
+msgid "Done"
+msgstr ""
+
+#: Console/Command/ApiShell.php:149
+msgid "Either a full path or type of class (model, behavior, controller, component, view, helper)"
+msgstr ""
+
+#: Console/Command/ApiShell.php:151
+msgid "A CakePHP core class name (e.g: Component, HtmlHelper)."
+msgstr ""
+
+#: Console/Command/ApiShell.php:154
+msgid "The specific method you want help on."
+msgstr ""
+
+#: Console/Command/ApiShell.php:155
+msgid "Lookup doc block comments for classes in CakePHP."
+msgstr ""
+
+#: Console/Command/ApiShell.php:192
+msgid "Command %s not found"
+msgstr ""
+
+#: Console/Command/ApiShell.php:209
+#: View/Helper/NumberHelper.php:65
+#: View/Helper/TextHelper.php:80
+#: View/Helper/TimeHelper.php:63
+msgid "%s could not be found"
+msgstr ""
+
+#: Console/Command/BakeShell.php:91
+msgid "Interactive Bake Shell"
+msgstr ""
+
+#: Console/Command/BakeShell.php:93
+msgid "[D]atabase Configuration"
+msgstr ""
+
+#: Console/Command/BakeShell.php:94
+msgid "[M]odel"
+msgstr ""
+
+#: Console/Command/BakeShell.php:95
+msgid "[V]iew"
+msgstr ""
+
+#: Console/Command/BakeShell.php:96
+msgid "[C]ontroller"
+msgstr ""
+
+#: Console/Command/BakeShell.php:97
+msgid "[P]roject"
+msgstr ""
+
+#: Console/Command/BakeShell.php:98
+msgid "[F]ixture"
+msgstr ""
+
+#: Console/Command/BakeShell.php:99
+msgid "[T]est case"
+msgstr ""
+
+#: Console/Command/BakeShell.php:100
+#: Console/Command/I18nShell.php:73
+msgid "[Q]uit"
+msgstr ""
+
+#: Console/Command/BakeShell.php:102
+msgid "What would you like to Bake?"
+msgstr ""
+
+#: Console/Command/BakeShell.php:129
+msgid "You have made an invalid selection. Please choose a type of class to Bake by entering D, M, V, F, T, or C."
+msgstr ""
+
+#: Console/Command/BakeShell.php:197
+msgid "<success>Bake All complete</success>"
+msgstr ""
+
+#: Console/Command/BakeShell.php:200
+msgid "Bake All could not continue without a valid model"
+msgstr ""
+
+#: Console/Command/BakeShell.php:212
+msgid "The Bake script generates controllers, views and models for your application. If run with no command line arguments, Bake guides the user through the class creation process. You can customize the generation process by telling Bake where different parts of your application are using command line arguments."
+msgstr ""
+
+#: Console/Command/BakeShell.php:217
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr ""
+
+#: Console/Command/BakeShell.php:219
+msgid "Bake a new app folder in the path supplied or in current directory if no path is specified"
+msgstr ""
+
+#: Console/Command/BakeShell.php:222
+msgid "Bake a new plugin folder in the path supplied or in current directory if no path is specified."
+msgstr ""
+
+#: Console/Command/BakeShell.php:225
+msgid "Bake a database.php file in config directory."
+msgstr ""
+
+#: Console/Command/BakeShell.php:228
+msgid "Bake a model."
+msgstr ""
+
+#: Console/Command/BakeShell.php:231
+msgid "Bake views for controllers."
+msgstr ""
+
+#: Console/Command/BakeShell.php:234
+msgid "Bake a controller."
+msgstr ""
+
+#: Console/Command/BakeShell.php:237
+msgid "Bake a fixture."
+msgstr ""
+
+#: Console/Command/BakeShell.php:240
+msgid "Bake a unit test."
+msgstr ""
+
+#: Console/Command/BakeShell.php:243
+msgid "Database connection to use in conjunction with `bake all`."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:45
+msgid "<info>Current Paths:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:51
+msgid "<info>Changing Paths:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:52
+msgid "Your working path should be the same as your application path. To change your path use the '-app' param."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:53
+msgid "Example: %s or %s"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:55
+msgid "<info>Available Shells:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:125
+msgid "To run an app or core command, type <info>cake shell_name [args]</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:126
+msgid "To run a plugin command, type <info>cake Plugin.shell_name [args]</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:127
+msgid "To get help on a specific command, type <info>cake shell_name --help</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:164
+msgid "Get the list of available shells for this CakePHP application."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:166
+msgid "Does nothing (deprecated)"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:170
+msgid "Get the listing as XML."
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:62;180
+msgid "Model classes:"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:70
+msgid "There was an error loading the routes config. Please check that the file exists and contains no errors."
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:198
+msgid "Created %s association between %s and %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:201
+msgid "Please verify you are using valid models and association types"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:226
+msgid "Removed %s association between %s and %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:229
+msgid "Please verify you are using valid models, valid current association, and valid association types"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:282
+msgid "No result set found"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:285
+msgid "%s is not a valid model"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:303
+msgid "Saved record for %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:322
+msgid "Please verify that you selected a valid model"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:327
+msgid "There was an error loading the routes config. Please check that the file exists and is free of parse errors."
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:330
+msgid "Routes configuration reloaded, %d routes connected"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:346
+msgid "Invalid command"
+msgstr ""
+
+#: Console/Command/I18nShell.php:68
+msgid "<info>I18n Shell</info>"
+msgstr ""
+
+#: Console/Command/I18nShell.php:70
+msgid "[E]xtract POT file from sources"
+msgstr ""
+
+#: Console/Command/I18nShell.php:71
+msgid "[I]nitialize i18n database table"
+msgstr ""
+
+#: Console/Command/I18nShell.php:72
+msgid "[H]elp"
+msgstr ""
+
+#: Console/Command/I18nShell.php:75
+msgid "What would you like to do?"
+msgstr ""
+
+#: Console/Command/I18nShell.php:90
+msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
+msgstr ""
+
+#: Console/Command/I18nShell.php:113
+msgid "I18n Shell initializes i18n database table for your application and generates .pot files(s) with translations."
+msgstr ""
+
+#: Console/Command/I18nShell.php:115
+msgid "Initialize the i18n table."
+msgstr ""
+
+#: Console/Command/I18nShell.php:117
+msgid "Extract the po translations from your application"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:112
+msgid "Schema file (%s) could not be found."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:124
+msgid "Generating Schema..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:139
+msgid "Schema file exists.\n [O]verwrite\n [S]napshot\n [Q]uit\nWould you like to do?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:186;189
+msgid "Schema file: %s generated"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:207
+msgid "Schema could not be loaded"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:231
+msgid "SQL dump file created in %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:234
+msgid "SQL dump could not be created"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:278
+msgid "Performing a dry run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:290
+msgid "The chosen schema could not be loaded. Attempted to load:"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:291
+msgid "File: %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:292
+msgid "Name: %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:325;377
+msgid "Schema is up to date."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:329
+msgid "The following table(s) will be dropped."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:332
+msgid "Are you sure you want to drop the table(s)?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:333
+msgid "Dropping table(s)."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:337
+msgid "The following table(s) will be created."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:340
+msgid "Are you sure you want to create the table(s)?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:341
+msgid "Creating table(s)."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:344
+msgid "End create."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:358
+msgid "Comparing Database to Schema..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:381
+msgid "The following statements will run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:383
+msgid "Are you sure you want to alter the tables?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:385
+msgid "Updating Database..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:389
+msgid "End update."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:402
+msgid "Sql could not be run"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:410
+msgid "%s is up to date."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:413
+msgid "Dry run for %s :"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:431
+msgid "%s updated."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:446
+msgid "The plugin to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:450
+msgid "Set the db config to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:454
+msgid "Path to read and write schema.php"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:458
+msgid "File name to read and write."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:462
+msgid "Classname to use. If its Plugin.class, both name and plugin options will be set."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:466
+msgid "Snapshot number to use/make."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:470
+msgid "Specify models as comma separated list."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:473
+msgid "Perform a dry run on create and update commands. Queries will be output instead of run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:478
+msgid "Force \"generate\" to create a new schema"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:482
+msgid "Write the dumped SQL to a file."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:487
+msgid "The Schema Shell generates a schema object from the database and updates the database from the schema."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:489
+msgid "Read and output the contents of a schema file"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:495
+msgid "Reads from --connection and writes to --path. Generate snapshots with -s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:499
+msgid "Generate a snapshot."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:503
+msgid "Dump database SQL based on a schema file to stdout."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:509
+msgid "Drop and create tables based on the schema file."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:514;527
+msgid "Name of schema to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:517;530
+msgid "Only create the specified table."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:522
+msgid "Alter the tables based on the schema file."
+msgstr ""
+
+#: Console/Command/ServerShell.php:114
+msgid "DocumentRoot: %s"
+msgstr ""
+
+#: Console/Command/ServerShell.php:125
+msgid "<warning>This command is available on PHP5.4 or above</warning>"
+msgstr ""
+
+#: Console/Command/ServerShell.php:137
+msgid "built-in server is running in http://%s%s/"
+msgstr ""
+
+#: Console/Command/ServerShell.php:151
+msgid "ServerHost"
+msgstr ""
+
+#: Console/Command/ServerShell.php:155
+msgid "ListenPort"
+msgstr ""
+
+#: Console/Command/ServerShell.php:159
+msgid "DocumentRoot"
+msgstr ""
+
+#: Console/Command/ServerShell.php:163
+msgid "PHP Built-in Server for CakePHP"
+msgstr ""
+
+#: Console/Command/ServerShell.php:164
+msgid "<warning>[WARN] Don't use this at the production environment</warning>"
+msgstr ""
+
+#: Console/Command/TestShell.php:50
+#: Console/Command/TestsuiteShell.php:44
+msgid "The CakePHP Testsuite allows you to run test cases from the command line"
+msgstr ""
+
+#: Console/Command/TestShell.php:52
+msgid "The category for the test, or test file, to test."
+msgstr ""
+
+#: Console/Command/TestShell.php:55
+msgid "The path to the file, or test file, to test."
+msgstr ""
+
+#: Console/Command/TestShell.php:58
+msgid "<file> Log test execution in JUnit XML format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:61
+msgid "<file> Log test execution in JSON format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:64
+msgid "<file> Log test execution in TAP format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:67
+msgid "Log test execution to DBUS."
+msgstr ""
+
+#: Console/Command/TestShell.php:70
+msgid "<dir> Generate code coverage report in HTML format."
+msgstr ""
+
+#: Console/Command/TestShell.php:73
+msgid "<file> Write code coverage data in Clover XML format."
+msgstr ""
+
+#: Console/Command/TestShell.php:76
+msgid "<file> Write agile documentation in HTML format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:79
+msgid "<file> Write agile documentation in Text format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:82
+msgid "<pattern> Filter which tests to run."
+msgstr ""
+
+#: Console/Command/TestShell.php:85
+msgid "<name> Only runs tests from the specified group(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:88
+msgid "<name> Exclude tests from the specified group(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:91
+msgid "List available test groups."
+msgstr ""
+
+#: Console/Command/TestShell.php:94
+msgid "TestSuiteLoader implementation to use."
+msgstr ""
+
+#: Console/Command/TestShell.php:97
+msgid "<times> Runs the test(s) repeatedly."
+msgstr ""
+
+#: Console/Command/TestShell.php:100
+msgid "Report test execution progress in TAP format."
+msgstr ""
+
+#: Console/Command/TestShell.php:103
+msgid "Report test execution progress in TestDox format."
+msgstr ""
+
+#: Console/Command/TestShell.php:107
+msgid "Do not use colors in output."
+msgstr ""
+
+#: Console/Command/TestShell.php:110
+msgid "Write to STDERR instead of STDOUT."
+msgstr ""
+
+#: Console/Command/TestShell.php:113
+msgid "Stop execution upon first error or failure."
+msgstr ""
+
+#: Console/Command/TestShell.php:116
+msgid "Stop execution upon first failure."
+msgstr ""
+
+#: Console/Command/TestShell.php:119
+msgid "Stop execution upon first skipped test."
+msgstr ""
+
+#: Console/Command/TestShell.php:122
+msgid "Stop execution upon first incomplete test."
+msgstr ""
+
+#: Console/Command/TestShell.php:125
+msgid "Mark a test as incomplete if no assertions are made."
+msgstr ""
+
+#: Console/Command/TestShell.php:128
+msgid "Waits for a keystroke after each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:131
+msgid "Run each test in a separate PHP process."
+msgstr ""
+
+#: Console/Command/TestShell.php:134
+msgid "Do not backup and restore $GLOBALS for each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:137
+msgid "Backup and restore static attributes for each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:140
+msgid "Try to check source files for syntax errors."
+msgstr ""
+
+#: Console/Command/TestShell.php:143
+msgid "<file> A \"bootstrap\" PHP file that is run before the tests."
+msgstr ""
+
+#: Console/Command/TestShell.php:146
+msgid "<file> Read configuration from XML file."
+msgstr ""
+
+#: Console/Command/TestShell.php:149
+msgid "Ignore default configuration file (phpunit.xml)."
+msgstr ""
+
+#: Console/Command/TestShell.php:152
+msgid "<path(s)> Prepend PHP include_path with given path(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:155
+msgid "key[=value] Sets a php.ini value."
+msgstr ""
+
+#: Console/Command/TestShell.php:158
+msgid "Choose a custom fixture manager."
+msgstr ""
+
+#: Console/Command/TestShell.php:160
+msgid "More verbose output."
+msgstr ""
+
+#: Console/Command/TestShell.php:251
+#: Console/Command/TestsuiteShell.php:90
+msgid "CakePHP Test Shell"
+msgstr ""
+
+#: Console/Command/TestShell.php:300
+msgid "No test cases available \n\n"
+msgstr ""
+
+#: Console/Command/TestShell.php:314
+msgid "What test case would you like to run?"
+msgstr ""
+
+#: Console/Command/TestsuiteShell.php:45
+msgid "<warning>This shell is for backwards-compatibility only</warning>"
+msgstr ""
+
+#: Console/Command/TestsuiteShell.php:46
+msgid "use the test shell instead"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:74
+msgid "<warning>Dry-run mode enabled!</warning>"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:77
+msgid "<warning>No git repository detected!</warning>"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:92
+msgid "Running %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:141
+msgid "Upgrading locations for plugin %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:146
+msgid "Upgrading locations for app directory"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:163;590;617;709
+msgid "Moving %s to %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:732
+msgid "Updating %s..."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:773
+msgid " * Updating %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:777
+msgid "Done updating %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:793
+msgid "The plugin to update. Only the specified plugin will be updated."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:797
+msgid "The extension(s) to search. A pipe delimited list, or a preg_match compatible subpattern"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:802
+msgid "Use git command for moving files around."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:807
+msgid "Dry run the update, no files will actually be modified."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:814
+msgid "A shell to help automate upgrading from CakePHP 1.3 to 2.0. \nBe sure to have a backup of your application before running these commands."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:817
+msgid "Run all upgrade commands."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:821
+msgid "Update tests class names to FooTest rather than FooTestCase."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:825
+msgid "Move files and folders to their new homes."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:829
+msgid "Update the i18n translation method calls."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:833
+msgid "Update calls to helpers."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:837
+msgid "Update removed basics functions to PHP native functions."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:841
+msgid "Update removed request access, and replace with $this->request."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:845
+msgid "Update Configure::read() to Configure::read('debug')"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:849
+msgid "Replace Obsolete constants"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:853
+msgid "Update components to extend Component class."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:857
+msgid "Replace use of cakeError with exceptions."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:77
+msgid "Baking basic crud methods for "
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:83;122
+msgid "Adding %s methods"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:140
+msgid "Bake Controller\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:149
+msgid "Baking %sController"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:159
+msgid "Would you like to build your controller interactively?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:161
+msgid "Warning: Choosing no will overwrite the %sController."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:168
+msgid "Would you like to use dynamic scaffolding?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:181
+msgid "Would you like to use Session flash messages?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:199
+#: Console/Command/Task/DbConfigTask.php:240
+#: Console/Command/Task/ModelTask.php:276
+#: Console/Command/Task/PluginTask.php:108
+#: Console/Command/Task/ProjectTask.php:199
+#: Console/Command/Task/ViewTask.php:334
+msgid "Look okay?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:228
+msgid "The following controller will be created:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:230
+msgid "Controller Name:\n\t%s"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:237
+msgid "Helpers:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:238
+msgid "Components:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:265
+msgid "Would you like to create some basic class methods \n(index(), add(), view(), edit())?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:269
+msgid "Would you like to create the basic class methods for admin routing?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:291
+msgid "You must have a model for this class to build basic methods. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:323
+msgid "Baking controller class for %s..."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:362
+msgid "Would you like this controller to use other helpers\nbesides HtmlHelper and FormHelper?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:363
+msgid "Please provide a comma separated list of the other\nhelper names you'd like to use.\nExample: 'Text, Js, Time'"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:374
+msgid "Would you like this controller to use any components?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:375
+msgid "Please provide a comma separated list of the component names you'd like to use.\nExample: 'Acl, Security, RequestHandler'"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:410
+msgid "Possible Controllers based on your current database:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:434
+msgid "Enter a number from the list above,\ntype in the name of another controller, or 'q' to exit"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:436
+#: Console/Command/Task/ModelTask.php:935
+msgid "Exit"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:441
+msgid "The Controller name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:462
+msgid "Bake a controller for a model. Using options you can bake public, admin or both."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:464
+msgid "Name of the controller to bake. Can use Plugin.name to bake controllers into plugins."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:466
+msgid "Bake a controller with basic crud actions (index, view, add, edit, delete)."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:469
+msgid "Bake a controller with crud actions for one of the Routing.prefixes."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:473
+msgid "Plugin to bake the controller into."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:476
+msgid "The connection the controller's model is on."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:478
+msgid "Bake all controllers with CRUD methods."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:479
+#: Console/Command/Task/FixtureTask.php:90
+#: Console/Command/Task/ModelTask.php:971
+#: Console/Command/Task/TestTask.php:569
+#: Console/Command/Task/ViewTask.php:443
+msgid "Omitting all arguments and options will enter into an interactive mode."
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:91
+msgid "Database Configuration:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:100
+msgid "Name:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:103
+msgid "The name may only contain unaccented latin characters, numbers or underscores"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:106
+msgid "The name must start with an unaccented latin character or an underscore"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:110
+msgid "Datasource:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:112
+msgid "Persistent Connection?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:121
+msgid "Database Host:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:126
+msgid "Port?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:135
+msgid "User:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:141
+msgid "Password:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:144
+msgid "The password you supplied was empty. Use an empty password?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:153
+msgid "Database Name:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:158
+msgid "Table Prefix?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:166
+msgid "Table encoding?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:175
+msgid "Table schema?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:189
+msgid "Do you wish to add another database configuration?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:212
+msgid "The following database configuration will be created:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:214
+msgid "Name:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:215
+msgid "Datasource:   %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:216
+msgid "Persistent:   %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:217
+msgid "Host:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:220
+msgid "Port:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:223
+msgid "User:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:224
+msgid "Pass:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:225
+msgid "Database:     %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:228
+msgid "Table prefix: %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:232
+msgid "Schema:       %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:236
+msgid "Encoding:     %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:367
+msgid "Use Database Config"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:380
+msgid "Bake new database configuration settings."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:125
+msgid "Current paths: %s\nWhat is the path you would like to extract?\n[Q]uit [D]one"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:132;209
+msgid "Extract Aborted"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:138
+msgid "<warning>No directories selected.</warning> Please choose a directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:143;215
+msgid "The directory path you supplied was not found. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:177
+msgid "Would you like to extract the messages from the CakePHP core?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:205
+msgid "What is the path you would like to output?\n[Q]uit"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:225
+msgid "Would you like to merge all domains strings into the default.pot file?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:235
+msgid "The output directory %s was not found or writable."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:279
+msgid "Extracting..."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:281
+msgid "Paths:"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:285
+msgid "Output Directory: "
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:295
+msgid "Done."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:305
+msgid "CakePHP Language String Extraction:"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:306
+msgid "Directory where your application is located."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:307
+msgid "Comma separated list of paths."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:309
+msgid "Merge all domain strings into the default.po file."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:312
+msgid "Full path to output directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:313
+msgid "Comma separated list of files."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:317
+msgid "Ignores all files in plugins if this command is run inside from the same app directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:320
+msgid "Extracts tokens only from the plugin specified and puts the result in the plugin's Locale directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:325
+msgid "Ignores validation messages in the $validate property. If this flag is not set and the command is run from the same app directory, all messages in model validation rules will be extracted as tokens."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:330
+msgid "If set to a value, the localization domain to be used for model validation messages."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:333
+msgid "Comma separated list of directories to exclude. Any path containing a path segment with the provided values will be skipped. E.g. test,vendors"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:339
+msgid "Always overwrite existing .pot files."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:342
+msgid "Extract messages from the CakePHP core libs."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:355
+msgid "Processing %s..."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:595
+msgid "Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:602
+msgid "What would you like to name this file?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:696
+msgid "Invalid marker content in %s:%s\n* %s("
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:72
+msgid "Generate fixtures for use with the test suite. You can use `bake fixture all` to bake all fixtures."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:74
+msgid "Name of the fixture to bake. Can use Plugin.name to bake plugin fixtures."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:76
+msgid "When using generated data, the number of records to include in the fixture(s)."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:80
+msgid "Which database configuration to use for baking."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:84
+msgid "CamelCased name of the plugin to bake fixtures for."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:87
+msgid "Used with --count and <name>/all commands to pull [n] records from the live tables, where [n] is either --count or the default of 10"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:141
+msgid "Bake Fixture\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:161
+msgid "Would you like to import schema for this fixture?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:165
+msgid "Would you like to use record importing for this fixture?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:170
+msgid "Would you like to build this fixture with data from %s's table?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:258
+msgid "Baking test fixture for %s..."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:391
+msgid "Please provide a SQL fragment to use as conditions\nExample: WHERE 1=1"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:395
+msgid "How many records do you want to import?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:130
+msgid "Baking %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:178
+msgid "Make a selection from the choices above"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:195
+msgid "Bake Model\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:210
+msgid "The table %s doesn't exist or could not be automatically detected\ncontinue anyway?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:236
+msgid "Would you like to supply validation criteria \nfor the fields in your model?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:242
+msgid "Would you like to define model associations\n(hasMany, hasOne, belongsTo, etc.)?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:251
+msgid "The following Model will be created:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:253
+msgid "Name:       %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:256
+msgid "DB Config:  %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:259
+msgid "DB Table:   %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:262
+msgid "Primary Key: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:265
+msgid "Validation: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:268
+msgid "Associations:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:322
+msgid "What is the primaryKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:333
+msgid "A displayField could not be automatically detected\nwould you like to choose one?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:338
+msgid "Choose a field from the options above:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:408
+msgid "Field: <info>%s</info>"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:409
+msgid "Type: <info>%s</info>"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:411
+msgid "Please select one of the following validation options:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:423
+msgid "%s - Do not do any validation on this field."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:427
+msgid "... or enter in a valid regex validation string.\n"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:457
+msgid "You have already chosen that validation rule,\nplease choose again"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:461
+msgid "Please make a valid selection."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:483
+msgid "Would you like to add another validation rule?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:500
+msgid "One moment while the associations are detected."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:530
+msgid "None found."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:532
+msgid "Please confirm the following associations:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:680
+msgid "Would you like to define some additional model associations?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:685
+msgid "What is the association type?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:686
+msgid "Enter a number"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:688
+msgid "For the following options be very careful to match your setup exactly.\nAny spelling mistakes will cause errors."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:692
+msgid "What is the alias for this association?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:693
+msgid "What className will %s use?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:715
+msgid "What is the table for this model?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:721
+msgid "A helpful List of possible keys"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:722
+msgid "What is the foreignKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:726
+msgid "What is the foreignKey? Specify your own."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:729
+msgid "What is the associationForeignKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:730
+msgid "What is the joinTable?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:742
+msgid "Define another association?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:811
+msgid "Baking model class for %s..."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:845
+msgid "Possible Models based on your current database:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:877
+msgid "Given your model named '%s',\nCake would expect a database table named '%s'"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:878
+msgid "Do you want to use this table?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:881
+msgid "What is the name of the table?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:913
+msgid "Your database does not have any tables."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:931
+msgid "Enter a number from the list above,\ntype in the name of another model, or 'q' to exit"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:940
+msgid "The model name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:960
+msgid "Bake models."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:962
+msgid "Name of the model to bake. Can use Plugin.name to bake plugin models."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:964
+msgid "Bake all model files with associations and validation."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:967
+msgid "Plugin to bake the model into."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:970
+msgid "The connection the model table is on."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:65
+msgid "Plugin: %s already exists, no action taken"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:84
+msgid "Enter the name of the plugin in CamelCase format"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:88
+msgid "An error occurred trying to bake: %s in %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:104
+msgid "<info>Plugin Name:</info> %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:105
+msgid "<info>Plugin Directory:</info> %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:165
+#: Console/Command/Task/ProjectTask.php:210
+msgid "<success>Created:</success> %s in %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:205
+msgid "Choose a plugin path from the paths above."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:221
+msgid "Create the directory structure, AppModel and AppController classes for a new plugin. Can create plugins in any of your bootstrapped plugin paths."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:225
+msgid "CamelCased name of the plugin to create."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:61
+msgid "What is the path to the project you want to bake?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:71
+msgid "<warning>A project already exists in this location:</warning> %s Overwrite?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:83
+msgid " * Random hash key created for 'Security.salt'"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:85
+msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:90
+msgid " * Random seed created for 'Security.cipherSeed'"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:92
+msgid "Unable to generate random seed for 'Security.cipherSeed', you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:97
+msgid " * Cache prefix set"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:99
+msgid "The cache prefix was <error>NOT</error> set"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:104
+msgid " * app/Console/cake.php path set."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:106
+msgid "Unable to set console path for app/Console."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:112
+msgid "<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, but commented out.</info>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:114
+msgid "<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will be hard coded.</warning>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:115
+msgid "You can fix this by adding CakePHP to your `include_path`."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:120
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in webroot/index.php"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:121
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in webroot/test.php"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:123
+msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:127
+msgid "   * <warning>Remember to check these values after moving to production server</warning>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:132
+msgid "Could not set permissions on %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:137
+msgid "<success>Project baked successfully!</success>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:139
+msgid "Project baked but with <warning>some issues.</warning>."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:176
+msgid "What is the path to the directory layout you wish to copy?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:181
+msgid "The directory path you supplied was empty. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:185
+msgid "Directory path does not exist please choose another:"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:195
+msgid "<info>Skel Directory</info>: "
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:196
+msgid "<info>Will be copied to</info>: "
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:213
+msgid "<error>Could not create</error> '%s' properly."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:227
+msgid "<error>Bake Aborted.</error>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:393
+msgid "You have more than one routing prefix configured"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:402
+msgid "Please choose a prefix to bake with."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:407;417
+msgid "You need to enable %s in %s to use prefix routing."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:410
+msgid "What would you like the prefix route to be?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:411
+msgid "Example: %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:413
+msgid "Enter a routing prefix:"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:416
+msgid "<error>Unable to write to</error> %s."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:435
+msgid "Generate a new CakePHP project skeleton."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:437
+msgid "Application directory to make, if it starts with \"/\" the path is absolute."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:440
+msgid "Create empty files in each of the directories. Good if you are using git"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:443
+msgid "The directory layout to use for the new application skeleton. Defaults to cake/Console/Templates/skel of CakePHP used to create the project."
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:178
+msgid "You have more than one set of templates installed."
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:179
+msgid "Please choose the template set you wish to use:"
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:189
+msgid "Which bake theme would you like to use?"
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:215
+msgid "Could not find template for %s"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:113
+msgid "Bake Tests"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:120
+msgid "Incorrect type provided. Please choose one of %s"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:146
+msgid "Bake is detecting possible fixtures..."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:164
+msgid "Baking test case for %s %s ..."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:190
+msgid "Select an object type:"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:200
+msgid "Enter the type of object to bake a test for or (q)uit"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:224
+msgid "Choose a %s class"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:231
+msgid "Choose an existing class, or enter the name of a class that does not exist"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:455
+msgid "Bake could not detect fixtures, would you like to add some?"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:458
+msgid "Please provide a comma separated list of the fixtures names you'd like to use.\nExample: 'app.comment, app.post, plugin.forums.post'"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:554
+msgid "Bake test case skeletons for classes."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:556
+msgid "Type of class to bake, can be any of the following: controller, model, helper, component or behavior."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:565
+msgid "An existing class to bake tests for."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:568
+msgid "CamelCased name of the plugin to bake tests for."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:211
+msgid "Would you like bake to build your views interactively?\nWarning: Choosing no will overwrite %s views if it exist."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:218
+msgid "Would you like to create some CRUD views\n(index, add, view, edit) for this controller?\nNOTE: Before doing so, you'll need to create your controller\nand model classes (including associated models)."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:221
+msgid "Would you like to create the views for admin routing?"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:240
+msgid "View Scaffolding Complete.\n"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:257
+msgid "Controller not found"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:269
+msgid "The file '%s' could not be found.\nIn order to bake a view, you'll need to first create the controller."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:321
+msgid "Action Name? (use lowercase_underscored function name)"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:323
+msgid "The action name you supplied was empty. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:328
+msgid "The following view will be created:"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:330
+msgid "Controller Name: %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:331
+msgid "Action Name:     %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:332
+msgid "Path:            %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:339
+msgid "Bake Aborted."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:357
+msgid "Baking `%s` view file..."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:425
+msgid "Bake views for a controller, using built-in or custom templates."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:427
+msgid "Name of the controller views to bake. Can be Plugin.name as a shortcut for plugin baking."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:429
+msgid "Will bake a single action's file. core templates are (index, add, edit, view)"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:431
+msgid "Will bake the template in <action> but create the filename after <alias>."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:434
+msgid "Plugin to bake the view into."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:436
+msgid "Set to only bake views for a prefix in Routing.prefixes"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:440
+msgid "The connection the connected model is on."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:442
+msgid "Bake all CRUD action views for all controllers. Requires models and controllers to exist."
+msgstr ""
+
+#: View/Errors/error400.ctp:22
+#: View/Errors/error500.ctp:22
+#: View/Errors/fatal_error.ctp:23
+#: View/Errors/missing_action.ctp:22;26
+#: View/Errors/missing_behavior.ctp:24;28
+#: View/Errors/missing_component.ctp:24;28
+#: View/Errors/missing_connection.ctp:22;33
+#: View/Errors/missing_controller.ctp:24;28
+#: View/Errors/missing_database.ctp:22;26
+#: View/Errors/missing_datasource.ctp:24
+#: View/Errors/missing_datasource_config.ctp:22
+#: View/Errors/missing_helper.ctp:24;28
+#: View/Errors/missing_layout.ctp:22;26
+#: View/Errors/missing_plugin.ctp:22;26
+#: View/Errors/missing_table.ctp:22
+#: View/Errors/missing_view.ctp:22;26
+#: View/Errors/pdo_error.ctp:22
+#: View/Errors/private_action.ctp:22
+#: View/Errors/scaffold_error.ctp:22
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:24
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:23
+#: Error/ExceptionRenderer.php:234
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Controller/Scaffold.php:130
+msgid "Scaffold :: "
+msgstr ""
+
+#: Controller/Scaffold.php:169;236;307
+msgid "Invalid %s"
+msgstr ""
+
+#: Controller/Scaffold.php:224
+msgid "updated"
+msgstr ""
+
+#: Controller/Scaffold.php:227
+msgid "saved"
+msgstr ""
+
+#: Controller/Scaffold.php:247
+msgid "The %1$s has been %2$s"
+msgstr ""
+
+#: Controller/Scaffold.php:258
+msgid "Please correct errors below."
+msgstr ""
+
+#: Controller/Scaffold.php:310
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr ""
+
+#: Controller/Scaffold.php:313
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:377
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Model/Validator/CakeValidationSet.php:288
+msgid "This field cannot be left blank"
+msgstr ""
+
+#: Network/CakeResponse.php:1234
+msgid "The requested file was not found"
+msgstr ""
+
+#: Utility/CakeNumber.php:102
+msgid "%d KB"
+msgstr ""
+
+#: Utility/CakeNumber.php:104
+msgid "%.2f MB"
+msgstr ""
+
+#: Utility/CakeNumber.php:106
+msgid "%.2f GB"
+msgstr ""
+
+#: Utility/CakeNumber.php:108
+msgid "%.2f TB"
+msgstr ""
+
+#: Utility/CakeNumber.php:100
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:395
+msgid "Today, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:398
+msgid "Yesterday, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:401
+msgid "Tomorrow, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:406
+msgid "Sunday"
+msgstr ""
+
+#: Utility/CakeTime.php:407
+msgid "Monday"
+msgstr ""
+
+#: Utility/CakeTime.php:408
+msgid "Tuesday"
+msgstr ""
+
+#: Utility/CakeTime.php:409
+msgid "Wednesday"
+msgstr ""
+
+#: Utility/CakeTime.php:410
+msgid "Thursday"
+msgstr ""
+
+#: Utility/CakeTime.php:411
+msgid "Friday"
+msgstr ""
+
+#: Utility/CakeTime.php:412
+msgid "Saturday"
+msgstr ""
+
+#: Utility/CakeTime.php:418
+msgid "On %s %s"
+msgstr ""
+
+#: Utility/CakeTime.php:817
+msgid "just now"
+msgstr ""
+
+#: Utility/CakeTime.php:821
+msgid "on %s"
+msgstr ""
+
+#: Utility/CakeTime.php:865
+msgid "%s ago"
+msgstr ""
+
+#: Utility/CakeTime.php:884;907
+msgid "days"
+msgstr ""
+
+#: Utility/CakeTime.php:155
+msgid "abday"
+msgstr ""
+
+#: Utility/CakeTime.php:161
+msgid "day"
+msgstr ""
+
+#: Utility/CakeTime.php:167
+msgid "d_t_fmt"
+msgstr ""
+
+#: Utility/CakeTime.php:189
+msgid "abmon"
+msgstr ""
+
+#: Utility/CakeTime.php:195
+msgid "mon"
+msgstr ""
+
+#: Utility/CakeTime.php:206
+msgid "am_pm"
+msgstr ""
+
+#: Utility/CakeTime.php:213
+msgid "t_fmt_ampm"
+msgstr ""
+
+#: Utility/CakeTime.php:227
+msgid "d_fmt"
+msgstr ""
+
+#: Utility/CakeTime.php:233
+msgid "t_fmt"
+msgstr ""
+
+#: Utility/CakeTime.php:843
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:846
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:849
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:852
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:855
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:858
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:861
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Helper/FormHelper.php:698
+msgid "Error in field %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:888
+#: View/Scaffolds/form.ctp:49
+#: View/Scaffolds/index.ctp:80;95
+#: View/Scaffolds/view.ctp:67;82;193
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:894
+#: View/Scaffolds/view.ctp:55;114
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1463
+msgid "empty"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2747
+msgid "January"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2748
+msgid "February"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2749
+msgid "March"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2750
+msgid "April"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2751
+msgid "May"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2752
+msgid "June"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2753
+msgid "July"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2754
+msgid "August"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2755
+msgid "September"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2756
+msgid "October"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2757
+msgid "November"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2758
+msgid "December"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:751
+msgid "Home"
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:607
+msgid " of "
+msgstr ""
+
+#: View/Scaffolds/form.ctp:38
+msgid "List"
+msgstr ""
+
+#: View/Scaffolds/form.ctp:45
+#: View/Scaffolds/index.ctp:88
+#: View/Scaffolds/view.ctp:63;76
+msgid "List %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:21
+msgid "View %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:59
+msgid "Delete %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:59
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:97;138
+msgid "Related %s"
+msgstr ""
+
+#: View/Layouts/default.ctp:20
+#: View/Layouts/error.ctp:20
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/Layouts/myimages.ctp:19
+msgid "Speed-Trade Images"
+msgstr ""
+
+#: View/Pages/home.ctp:25
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: View/Pages/home.ctp:27
+msgid "Read the changelog"
+msgstr ""
+
+#: View/Pages/home.ctp:35
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+#: View/Pages/home.ctp:43
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+#: View/Pages/home.ctp:47
+msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+#: View/Pages/home.ctp:56
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: View/Pages/home.ctp:60
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: View/Pages/home.ctp:70
+msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
+msgstr ""
+
+#: View/Pages/home.ctp:74
+msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
+msgstr ""
+
+#: View/Pages/home.ctp:84
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: View/Pages/home.ctp:89
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: View/Pages/home.ctp:91
+msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
+msgstr ""
+
+#: View/Pages/home.ctp:116
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:120
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:132
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: View/Pages/home.ctp:134
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+#: View/Pages/home.ctp:143
+msgid "DebugKit plugin is present"
+msgstr ""
+
+#: View/Pages/home.ctp:147
+msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
+msgstr ""
+
+#: View/Pages/home.ctp:149
+msgid "You can install it from %s"
+msgstr ""
+
+#: View/Pages/home.ctp:155
+msgid "Editing this Page"
+msgstr ""
+
+#: View/Pages/home.ctp:158
+msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+#: View/Pages/home.ctp:164
+msgid "Getting Started"
+msgstr ""
+
+#: View/Pages/home.ctp:168
+msgid "New"
+msgstr ""
+
+#: View/Pages/home.ctp:168
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+#: View/Pages/home.ctp:177
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: View/Pages/home.ctp:184
+msgid "Official Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:189
+msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
+msgstr ""
+
+#: View/Pages/home.ctp:193
+msgid "contains various localized validation classes and translations for specific countries"
+msgstr ""
+
+#: View/Pages/home.ctp:198
+msgid "More about Cake"
+msgstr ""
+
+#: View/Pages/home.ctp:200
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: View/Pages/home.ctp:203
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: View/Pages/home.ctp:207
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: View/Pages/home.ctp:208
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:209
+msgid "CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:210
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: View/Pages/home.ctp:211
+msgid "CakePHP Documentation"
+msgstr ""
+
+#: View/Pages/home.ctp:212
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: View/Pages/home.ctp:213
+msgid "CakePHP API"
+msgstr ""
+
+#: View/Pages/home.ctp:214
+msgid "Quick Reference"
+msgstr ""
+
+#: View/Pages/home.ctp:215
+msgid "The Bakery"
+msgstr ""
+
+#: View/Pages/home.ctp:216
+msgid "Everything CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:217
+msgid "CakePHP plugins repo"
+msgstr ""
+
+#: View/Pages/home.ctp:218
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+
+#: View/Pages/home.ctp:219
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: View/Pages/home.ctp:220
+msgid "Community mailing list"
+msgstr ""
+
+#: View/Pages/home.ctp:222
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:223
+msgid "CakePHP Code"
+msgstr ""
+
+#: View/Pages/home.ctp:224
+msgid "For the Development of CakePHP Git repository, Downloads"
+msgstr ""
+
+#: View/Pages/home.ctp:225
+msgid "CakePHP Lighthouse"
+msgstr ""
+
+#: View/Pages/home.ctp:226
+msgid "CakePHP Tickets, Wiki pages, Roadmap"
+msgstr ""
+
+#: webroot/test.php:95
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: Cache/Cache.php:158
+msgid "Cache engine %s is not available."
+msgstr ""
+
+#: Cache/Cache.php:162
+msgid "Cache engines must use CacheEngine as a base class."
+msgstr ""
+
+#: Cache/Cache.php:166
+msgid "Cache engine %s is not properly configured."
+msgstr ""
+
+#: Cache/Cache.php:303
+msgid "%s cache was unable to write '%s' to %s cache"
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:271
+msgid "Files cannot be atomically decremented."
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:283
+msgid "Files cannot be atomically incremented."
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:320
+msgid "Could not apply permission mask \"%s\" on cache file \"%s\""
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:337
+msgid "%s is not writable"
+msgstr ""
+
+#: Cache/Engine/MemcacheEngine.php:168
+msgid "Method increment() not implemented for compressed cache in %s"
+msgstr ""
+
+#: Cache/Engine/MemcacheEngine.php:185
+msgid "Method decrement() not implemented for compressed cache in %s"
+msgstr ""
+
+#: Configure/IniReader.php:103
+#: Configure/PhpReader.php:64
+msgid "Cannot load configuration files with ../ in them."
+msgstr ""
+
+#: Configure/IniReader.php:108
+#: Configure/PhpReader.php:69
+msgid "Could not load configuration file: %s"
+msgstr ""
+
+#: Configure/PhpReader.php:74
+msgid "No variable $config found in %s"
+msgstr ""
+
+#: Console/Command/TestShell.php:176
+msgid "Please install PHPUnit framework <info>(http://www.phpunit.de)</info>"
+msgstr ""
+
+#: Console/Command/TestShell.php:373
+msgid "Test case %s cannot be run via this shell"
+msgstr ""
+
+#: Console/Command/TestShell.php:386;403
+msgid "Test case %s not found"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:183
+msgid "%s modified"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:324
+msgid "Invalid object type."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:343
+msgid "Invalid type name"
+msgstr ""
+
+#: Controller/Component/AclComponent.php:67
+msgid "Could not find %s."
+msgstr ""
+
+#: Controller/Component/AclComponent.php:91
+msgid "AclComponent adapters must implement AclInterface"
+msgstr ""
+
+#: Controller/Component/AclComponent.php:162
+msgid "AclComponent::grant() is deprecated, use allow() instead"
+msgstr ""
+
+#: Controller/Component/AclComponent.php:176
+msgid "AclComponent::revoke() is deprecated, use deny() instead"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:441
+msgid "Authorization adapter \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:444
+msgid "Authorization objects must implement an authorize method."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:725
+msgid "Authentication adapter \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:728
+msgid "Authentication objects must implement an authenticate method."
+msgstr ""
+
+#: Controller/Component/CookieComponent.php:370
+msgid "You must use cipher or rijndael for cookie encryption type"
+msgstr ""
+
+#: Controller/Component/RequestHandlerComponent.php:745
+msgid "You must give a handler callback."
+msgstr ""
+
+#: Controller/Component/SecurityComponent.php:337;615
+msgid "The request has been black-holed"
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:102
+msgid "\"roles\" section not found in configuration."
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:106
+msgid "Neither \"allow\" nor \"deny\" rules were provided in configuration."
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:524
+msgid "cycle detected when inheriting %s from %s. Path: %s"
+msgstr ""
+
+#: Controller/Component/Auth/BaseAuthorize.php:97
+msgid "$controller needs to be an instance of Controller"
+msgstr ""
+
+#: Controller/Component/Auth/ControllerAuthorize.php:51
+msgid "$controller does not implement an isAuthorized() method."
+msgstr ""
+
+#: Controller/Component/Auth/CrudAuthorize.php:85
+msgid "CrudAuthorize::authorize() - Attempted access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgstr ""
+
+#: Core/Configure.php:79
+msgid "Can't find application core file. Please create %score.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: Core/Configure.php:95
+msgid "Can't find application bootstrap file. Please create %sbootstrap.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: Core/Configure.php:323
+msgid "There is no \"%s\" adapter."
+msgstr ""
+
+#: Core/Configure.php:326
+msgid "The \"%s\" adapter, does not have a dump() method."
+msgstr ""
+
+#: Event/CakeEventManager.php:105
+msgid "The eventKey variable is required"
+msgstr ""
+
+#: I18n/I18n.php:201
+msgid "Missing plural form translation for \"%s\" in \"%s\" domain, \"%s\" locale.  Check your po file for correct plurals and valid Plural-Forms header."
+msgstr ""
+
+#: Log/CakeLog.php:191
+msgid "Invalid key name"
+msgstr ""
+
+#: Log/CakeLog.php:194
+msgid "Missing logger classname"
+msgstr ""
+
+#: Log/CakeLog.php:315;333;352
+msgid "Stream %s not found"
+msgstr ""
+
+#: Log/LogEngineCollection.php:46
+msgid "logger class %s does not implement a write method."
+msgstr ""
+
+#: Log/LogEngineCollection.php:69
+msgid "Could not load class %s"
+msgstr ""
+
+#: Model/AclNode.php:177
+msgid "AclNode::node() - Couldn't find %s node identified by \"%s\""
+msgstr ""
+
+#: Model/BehaviorCollection.php:231
+msgid "BehaviorCollection::dispatchMethod() - Method %s not found in any attached behavior"
+msgstr ""
+
+#: Model/CakeSchema.php:617
+msgid "Schema generation error: invalid column type %s for %s.%s does not exist in DBO"
+msgstr ""
+
+#: Model/Model.php:1342
+msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: Model/Model.php:3319
+msgid "Invalid join model settings in %s. The association parameter has the wrong type, expecting a string or array, but was passed type: %s"
+msgstr ""
+
+#: Model/Permission.php:94
+msgid "DbAcl::check() - Failed ARO/ACO node lookup in permissions check. Node references:\nAro: "
+msgstr ""
+
+#: Model/Permission.php:99
+msgid "DbAcl::check() - Failed ACO node lookup in permissions check. Node references:\nAro: "
+msgstr ""
+
+#: Model/Permission.php:104
+msgid "ACO permissions key %s does not exist in DbAcl::check()"
+msgstr ""
+
+#: Model/Permission.php:176
+msgid "DbAcl::allow() - Invalid node"
+msgstr ""
+
+#: Model/Permission.php:194
+msgid "Invalid permission key \"%s\""
+msgstr ""
+
+#: Model/Behavior/AclBehavior.php:68
+msgid "Callback parentNode() not defined in %s"
+msgstr ""
+
+#: Model/Behavior/AclBehavior.php:85
+msgid "AclBehavior is setup with more then one type, please specify type parameter for node()"
+msgstr ""
+
+#: Model/Behavior/ContainableBehavior.php:344
+msgid "Model \"%s\" is not associated with model \"%s\""
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:71
+msgid "Datasource %s for TranslateBehavior of model %s is not connected"
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:585
+msgid "You cannot bind a translation named \"name\"."
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:607
+msgid "Association %s is already bound to model %s"
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:484
+msgid "Unable to configure the session, setting %s failed."
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:520
+msgid "Could not load %s to handle the session."
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:526
+msgid "Chosen SessionHandler does not implement CakeSessionHandlerInterface it cannot be used with an engine key."
+msgstr ""
+
+#: Model/Datasource/DboSource.php:257
+msgid "Selected driver is not enabled"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:1192
+msgid "Error in Model %s"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:2967
+msgid "Invalid schema object"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:3077
+#: Model/Datasource/Database/Sqlite.php:402
+msgid "Column name or type not defined in schema"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:3082
+#: Model/Datasource/Database/Sqlite.php:407
+msgid "Column type %s does not exist"
+msgstr ""
+
+#: Model/Datasource/Database/Mysql.php:312
+#: Model/Datasource/Database/Sqlserver.php:211
+msgid "Could not describe table for %s"
+msgstr ""
+
+#: Model/Validator/CakeValidationRule.php:284
+msgid "Could not find validation handler %s for %s"
+msgstr ""
+
+#: Network/CakeRequest.php:440
+msgid "Method %s does not exist"
+msgstr ""
+
+#: Network/CakeResponse.php:607
+msgid "Unknown status code"
+msgstr ""
+
+#: Network/CakeResponse.php:1232
+msgid "The requested file %s was not found or not readable"
+msgstr ""
+
+#: Network/CakeSocket.php:305
+msgid "Connection timed out"
+msgstr ""
+
+#: Network/CakeSocket.php:373
+msgid "Invalid encryption scheme chosen"
+msgstr ""
+
+#: Network/CakeSocket.php:386
+msgid "Unable to perform enableCrypto operation on CakeSocket"
+msgstr ""
+
+#: Network/Email/CakeEmail.php:356
+msgid "From requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:371
+msgid "Sender requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:386
+msgid "Reply-To requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:401
+msgid "Disposition-Notification-To requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:416
+msgid "Return-Path requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:536;550;590;604
+msgid "Invalid email: \"%s\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:635;650
+msgid "$headers should be an array."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:850
+msgid "Format not available."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:885
+msgid "Class \"%s\" not found."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:887
+msgid "The \"%s\" do not have send method."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:908
+msgid "Invalid format for Message-ID. The text should be something like \"<uuid@server.com>\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:977
+msgid "File not specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:981
+msgid "File not found: \"%s\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1063
+msgid "From is not specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1066
+msgid "You need to specify at least one destination for to, cc or bcc."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1133
+msgid "%s not found."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1137
+msgid "Unknown email configuration \"%s\"."
+msgstr ""
+
+#: Network/Email/MailTransport.php:66;70
+msgid "Could not send email."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:102
+msgid "Unable to connect to SMTP server."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:123
+msgid "SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:128
+msgid "SMTP server did not accept the connection."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:144
+msgid "SMTP server did not accept the username."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:147
+msgid "SMTP server did not accept the password."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:150
+msgid "SMTP authentication method not allowed, check if SMTP server requires TLS"
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:152
+msgid "SMTP does not require authentication."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:241
+msgid "SMTP timeout."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:252
+msgid "SMTP Error: %s"
+msgstr ""
+
+#: Network/Http/HttpResponse.php:23
+msgid "HttpResponse is deprecated due to naming conflicts. Use HttpSocketResponse instead."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:245
+msgid "Invalid resource."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:405
+msgid "Class %s not found."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:590
+msgid "Unknown authentication method."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:593
+msgid "The %s do not support authentication."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:619
+msgid "Unknown authentication method for proxy."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:622
+msgid "The %s do not support proxy authentication."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:874
+msgid "HttpSocket::_buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:892
+msgid "HttpSocket::_buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
+msgstr ""
+
+#: Network/Http/HttpSocketResponse.php:153
+msgid "Invalid response."
+msgstr ""
+
+#: Network/Http/HttpSocketResponse.php:157
+msgid "Invalid HTTP response."
+msgstr ""
+
+#: Network/Http/HttpSocketResponse.php:225
+msgid "HttpSocket::_decodeChunkedBody - Could not parse malformed chunk."
+msgstr ""
+
+#: Routing/Router.php:197
+msgid "Route class not found, or route class is not a subclass of CakeRoute"
+msgstr ""
+
+#: Utility/CakeNumber.php:145
+msgid "No unit type."
+msgstr ""
+
+#: Utility/ClassRegistry.php:116
+msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
+msgstr ""
+
+#: Utility/ClassRegistry.php:148
+msgid "Cannot create instance of %s, as it is abstract or is an interface"
+msgstr ""
+
+#: Utility/ClassRegistry.php:189
+msgid "(ClassRegistry::init() could not create instance of %s"
+msgstr ""
+
+#: Utility/Debugger.php:635
+msgid "Invalid Debugger output format."
+msgstr ""
+
+#: Utility/Debugger.php:851
+msgid "Please change the value of 'Security.salt' in app/Config/core.php to a salt value specific to your application"
+msgstr ""
+
+#: Utility/Debugger.php:855
+msgid "Please change the value of 'Security.cipherSeed' in app/Config/core.php to a numeric (digits only) seed value specific to your application"
+msgstr ""
+
+#: Utility/Folder.php:385;408
+msgid "%s changed to %s"
+msgstr ""
+
+#: Utility/Folder.php:389;410
+msgid "%s NOT changed to %s"
+msgstr ""
+
+#: Utility/Folder.php:506
+msgid "%s is a file"
+msgstr ""
+
+#: Utility/Folder.php:517;696
+msgid "%s created"
+msgstr ""
+
+#: Utility/Folder.php:521
+msgid "%s NOT created"
+msgstr ""
+
+#: Utility/Folder.php:594;602;614
+msgid "%s removed"
+msgstr ""
+
+#: Utility/Folder.php:596;604;616
+msgid "%s NOT removed"
+msgstr ""
+
+#: Utility/Folder.php:663
+msgid "%s not writable"
+msgstr ""
+
+#: Utility/Folder.php:679
+msgid "%s copied to %s"
+msgstr ""
+
+#: Utility/Folder.php:681
+msgid "%s NOT copied to %s"
+msgstr ""
+
+#: Utility/Folder.php:700
+msgid "%s not created"
+msgstr ""
+
+#: Utility/ObjectCollection.php:128
+msgid "Cannot use modParams with indexes that do not exist."
+msgstr ""
+
+#: Utility/Security.php:160
+msgid "Invalid value, cost must be between %s and %s"
+msgstr ""
+
+#: Utility/Security.php:187
+msgid "You cannot use an empty key for Security::cipher()"
+msgstr ""
+
+#: Utility/Security.php:220
+msgid "You cannot use an empty key for Security::rijndael()"
+msgstr ""
+
+#: Utility/Security.php:224
+msgid "You must specify the operation for Security::rijndael(), either encrypt or decrypt"
+msgstr ""
+
+#: Utility/Security.php:228
+msgid "You must use a key larger than 32 bytes for Security::rijndael()"
+msgstr ""
+
+#: Utility/Security.php:282
+msgid "Invalid salt: %s for %s Please visit http://www.php.net/crypt and read the appropriate section for building %s salts."
+msgstr ""
+
+#: Utility/Validation.php:257
+msgid "You must define the $operator parameter for Validation::comparison()"
+msgstr ""
+
+#: Utility/Validation.php:276
+msgid "You must define a regular expression for Validation::custom()"
+msgstr ""
+
+#: Utility/Validation.php:799
+msgid "Could not find %s class, unable to complete validation."
+msgstr ""
+
+#: Utility/Validation.php:803
+msgid "Method %s does not exist on %s unable to complete validation."
+msgstr ""
+
+#: Utility/Validation.php:898
+msgid "Can not determine the mimetype."
+msgstr ""
+
+#: Utility/Xml.php:110;114;119
+msgid "XML cannot be read."
+msgstr ""
+
+#: Utility/Xml.php:117;195
+msgid "Invalid input."
+msgstr ""
+
+#: Utility/Xml.php:151
+msgid "Xml cannot be read."
+msgstr ""
+
+#: Utility/Xml.php:199
+msgid "The key of input must be alphanumeric"
+msgstr ""
+
+#: Utility/Xml.php:272;285
+msgid "Invalid array"
+msgstr ""
+
+#: Utility/Xml.php:336
+msgid "The input is not instance of SimpleXMLElement, DOMDocument or DOMNode."
+msgstr ""
+
+#: View/Helper.php:191
+msgid "Method %1$s::%2$s does not exist"
+msgstr ""
+
+#: View/View.php:421
+msgid "Element Not Found: %s"
+msgstr ""
+
+#: View/View.php:725
+msgid "You cannot extend an element which does not exist (%s)."
+msgstr ""
+
+#: View/View.php:741
+msgid "You cannot have views extend themselves."
+msgstr ""
+
+#: View/View.php:744
+msgid "You cannot have views extend in a loop."
+msgstr ""
+
+#: View/View.php:928
+msgid "The \"%s\" block was left open. Blocks are not allowed to cross files."
+msgstr ""
+
+#: View/ViewBlock.php:143
+msgid "%s must be a string."
+msgstr ""
+
+#: View/ViewBlock.php:187
+msgid "Blocks can only contain strings."
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:21
+msgid "Fatal Error"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:27
+msgid "File"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:31
+msgid "Line"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:35
+#: View/Errors/missing_action.ctp:41
+#: View/Errors/missing_behavior.ctp:38
+#: View/Errors/missing_component.ctp:38
+#: View/Errors/missing_connection.ctp:38
+#: View/Errors/missing_controller.ctp:38
+#: View/Errors/missing_database.ctp:30
+#: View/Errors/missing_datasource.ctp:31
+#: View/Errors/missing_datasource_config.ctp:26
+#: View/Errors/missing_helper.ctp:38
+#: View/Errors/missing_layout.ctp:30
+#: View/Errors/missing_plugin.ctp:42
+#: View/Errors/missing_table.ctp:26
+#: View/Errors/missing_view.ctp:30
+#: View/Errors/pdo_error.ctp:36
+#: View/Errors/private_action.ctp:26
+#: View/Errors/scaffold_error.ctp:26
+msgid "Notice"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:36
+#: View/Errors/missing_action.ctp:42
+#: View/Errors/missing_behavior.ctp:39
+#: View/Errors/missing_component.ctp:39
+#: View/Errors/missing_controller.ctp:39
+#: View/Errors/missing_database.ctp:31
+#: View/Errors/missing_datasource.ctp:32
+#: View/Errors/missing_datasource_config.ctp:27
+#: View/Errors/missing_helper.ctp:39
+#: View/Errors/missing_layout.ctp:31
+#: View/Errors/missing_plugin.ctp:43
+#: View/Errors/missing_table.ctp:27
+#: View/Errors/missing_view.ctp:31
+#: View/Errors/pdo_error.ctp:37
+#: View/Errors/private_action.ctp:27
+#: View/Errors/scaffold_error.ctp:27
+msgid "If you want to customize this error message, create %s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:21
+msgid "Missing Method in %s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:23
+msgid "The action %1$s is not defined in controller %2$s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:27
+msgid "Create %1$s%2$s in file: %3$s."
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:22
+msgid "Missing Behavior"
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:25
+#: View/Errors/missing_component.ctp:25
+#: View/Errors/missing_controller.ctp:25
+#: View/Errors/missing_helper.ctp:25
+msgid "%s could not be found."
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:29
+#: View/Errors/missing_component.ctp:29
+#: View/Errors/missing_controller.ctp:29
+#: View/Errors/missing_helper.ctp:29
+msgid "Create the class %s below in file: %s"
+msgstr ""
+
+#: View/Errors/missing_component.ctp:22
+msgid "Missing Component"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:20
+#: View/Errors/missing_database.ctp:20
+msgid "Missing Database Connection"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:23
+msgid "A Database connection using \"%s\" was missing or unable to connect. "
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:27
+msgid "The database server returned this error: %s"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:34
+msgid "%s driver is NOT enabled"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:39
+msgid "If you want to customize this error message, create %s."
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:22
+msgid "Missing Controller"
+msgstr ""
+
+#: View/Errors/missing_database.ctp:23
+msgid "Scaffold requires a database connection"
+msgstr ""
+
+#: View/Errors/missing_database.ctp:27
+#: View/Errors/missing_layout.ctp:27
+#: View/Errors/missing_view.ctp:27
+msgid "Confirm you have created the file: %s"
+msgstr ""
+
+#: View/Errors/missing_datasource.ctp:22
+msgid "Missing Datasource"
+msgstr ""
+
+#: View/Errors/missing_datasource.ctp:25
+msgid "Datasource class %s could not be found."
+msgstr ""
+
+#: View/Errors/missing_datasource_config.ctp:20
+msgid "Missing Datasource Configuration"
+msgstr ""
+
+#: View/Errors/missing_datasource_config.ctp:23
+msgid "The datasource configuration %1$s was not found in database.php."
+msgstr ""
+
+#: View/Errors/missing_helper.ctp:22
+msgid "Missing Helper"
+msgstr ""
+
+#: View/Errors/missing_layout.ctp:20
+msgid "Missing Layout"
+msgstr ""
+
+#: View/Errors/missing_layout.ctp:23
+msgid "The layout file %s can not be found or does not exist."
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:20
+msgid "Missing Plugin"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:23
+msgid "The application is trying to load a file from the %s plugin"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:27
+msgid "Make sure your plugin %s is in the "
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:35
+msgid "Loading all plugins"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:36
+msgid "If you wish to load all plugins at once, use the following line in your "
+msgstr ""
+
+#: View/Errors/missing_table.ctp:20
+msgid "Missing Database Table"
+msgstr ""
+
+#: View/Errors/missing_table.ctp:23
+msgid "Table %1$s for model %2$s was not found in datasource %3$s."
+msgstr ""
+
+#: View/Errors/missing_view.ctp:20
+msgid "Missing View"
+msgstr ""
+
+#: View/Errors/missing_view.ctp:23
+msgid "The view for %1$s%2$s was not found."
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:20
+msgid "Database Error"
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:27
+msgid "SQL Query"
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:32
+msgid "SQL Query Params"
+msgstr ""
+
+#: View/Errors/private_action.ctp:20
+msgid "Private Method in %s"
+msgstr ""
+
+#: View/Errors/private_action.ctp:23
+msgid "%s%s cannot be accessed directly."
+msgstr ""
+
+#: View/Errors/scaffold_error.ctp:20
+msgid "Scaffold Error"
+msgstr ""
+
+#: View/Errors/scaffold_error.ctp:23
+msgid "Method _scaffoldError in was not found in the controller"
+msgstr ""
+
+#: View/Helper/CacheHelper.php:157
+msgid "Unable to write view cache file: \"%s\" for \"%s\""
+msgstr ""
+
+#: View/Helper/FormHelper.php:1585
+msgid "Missing field name for FormHelper::%s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:1207
+msgid "Cannot load the configuration file. Wrong \"configFile\" configuration."
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:1213
+msgid "Cannot load the configuration file. Unknown reader."
+msgstr ""
+
+#: View/Helper/JsHelper.php:154
+msgid "JsHelper:: Missing Method %s is undefined"
+msgstr ""
+
+#: View/Helper/MootoolsEngineHelper.php:311
+msgid "MootoolsEngine::drop() requires a \"drag\" option to properly function"
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:99
+msgid "%s does not implement a link() method, it is incompatible with PaginatorHelper"
+msgstr ""
+

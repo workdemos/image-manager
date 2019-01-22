@@ -1,0 +1,45 @@
+drop table if exists posts;
+CREATE TABLE posts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50),
+    body TEXT,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+drop table if exists users;
+CREATE TABLE users (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password CHAR(40) NOT NULL,
+    group_id INT(11) NOT NULL,
+    created DATETIME,
+    modified DATETIME
+);
+
+drop table if exists groups;
+CREATE TABLE groups (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    created DATETIME,
+    modified DATETIME
+);
+
+drop table if exists posts;
+CREATE TABLE posts (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    user_id INT(11) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    body TEXT,
+    created DATETIME,
+    modified DATETIME
+);
+
+drop table if exists widgets;
+CREATE TABLE widgets (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    part_no VARCHAR(12),
+    quantity INT(11)
+);
+
